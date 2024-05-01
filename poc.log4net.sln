@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poc.log4net", "poc.log4net\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poc.log4net.shared", "poc.log4net.shared\poc.log4net.shared.csproj", "{F63C3F2F-2AB6-4442-B5E9-31D00924AC27}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poc.log4net.config", "poc.log4net.config\poc.log4net.config.csproj", "{097C4198-0677-4253-A36E-D8225C37513E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{F63C3F2F-2AB6-4442-B5E9-31D00924AC27}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F63C3F2F-2AB6-4442-B5E9-31D00924AC27}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F63C3F2F-2AB6-4442-B5E9-31D00924AC27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{097C4198-0677-4253-A36E-D8225C37513E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{097C4198-0677-4253-A36E-D8225C37513E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{097C4198-0677-4253-A36E-D8225C37513E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{097C4198-0677-4253-A36E-D8225C37513E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
