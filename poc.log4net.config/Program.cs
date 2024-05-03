@@ -7,7 +7,7 @@ namespace poc.log4net.config
 {
     class Program
     {
-        private static readonly ILog log = LogManager.GetLogger(typeof(Program));
+        private static readonly ILog Log = LogManager.GetLogger(typeof(Program));
 
         static Program()
         {
@@ -16,17 +16,22 @@ namespace poc.log4net.config
 
         public static void Main(string[] args)
         {
-            log.Info("Log4net初始化成功");
+            Log.Info("Log4net初始化成功");
 
             // 示例：记录不同级别的日志
-            log.Debug("这是一条调试日志");
-            log.Info("这是一条信息日志");
-            log.Warn("这是一条警告日志");
-            log.Error("这是一条错误日志");
-            log.Fatal("这是一条致命错误日志");
+            Log.Debug("这是一条调试日志");
+            Log.Info("这是一条信息日志");
+            Log.Warn("这是一条警告日志");
+            Log.Error("这是一条错误日志");
+            Log.Fatal("这是一条致命错误日志");
             SharedClass sharedClass = new SharedClass();
             sharedClass.DoSomething();
             sharedClass.DoSomethingElse();
+            //循环写log 测试 log 4net 配置
+            for (int i = 0; i < 100; i++)
+            {
+                Log.Info("这是一条信息日志");
+            }
         }
     }
 }
