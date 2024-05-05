@@ -6,6 +6,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poc.log4net.shared", "poc.l
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poc.log4net.config", "poc.log4net.config\poc.log4net.config.csproj", "{097C4198-0677-4253-A36E-D8225C37513E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poc.grpcserver", "poc.grpcserver\poc.grpcserver.csproj", "{29C4E779-35D5-4059-9CED-B5B767EA0396}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poc.StreamingJsonApi2", "poc.StreamingJsonApi2\poc.StreamingJsonApi2.csproj", "{91838B6D-3785-405E-8642-4EC15E20A974}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poc.JsonStreamConsumer", "poc.JsonStreamConsumer\poc.JsonStreamConsumer.csproj", "{59B8C66A-2110-4BD2-A148-FAB204CA1D6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +30,17 @@ Global
 		{097C4198-0677-4253-A36E-D8225C37513E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{097C4198-0677-4253-A36E-D8225C37513E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{097C4198-0677-4253-A36E-D8225C37513E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29C4E779-35D5-4059-9CED-B5B767EA0396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29C4E779-35D5-4059-9CED-B5B767EA0396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29C4E779-35D5-4059-9CED-B5B767EA0396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29C4E779-35D5-4059-9CED-B5B767EA0396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91838B6D-3785-405E-8642-4EC15E20A974}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91838B6D-3785-405E-8642-4EC15E20A974}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91838B6D-3785-405E-8642-4EC15E20A974}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91838B6D-3785-405E-8642-4EC15E20A974}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59B8C66A-2110-4BD2-A148-FAB204CA1D6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59B8C66A-2110-4BD2-A148-FAB204CA1D6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59B8C66A-2110-4BD2-A148-FAB204CA1D6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59B8C66A-2110-4BD2-A148-FAB204CA1D6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
