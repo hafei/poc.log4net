@@ -4,3 +4,6 @@ GET {{poc.StreamingJsonApi2_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+GET {{poc.StreamingJsonApi2_HostAddress}}/Stream
+Accept: application/json
